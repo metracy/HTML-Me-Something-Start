@@ -1,11 +1,10 @@
 body {
     margin: 8px;
-    width: 100%;
+    width: 1024px;
     max-width: 1024px;
     font-weight: bold;
-    margin: 0 auto;
-    background-color: white;
-    font-size: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
 }
 
 #mainHeading {
@@ -21,16 +20,17 @@ body {
 #testP.funParagraph {
     color: green;
     font-style: bold;
-    padding: 10px;
-    background-color: rgb(216, 206, 255);
+    background-color: rgb(204, 192, 252);
     margin-bottom: 20px;
 }
-/*
-playing with multiple assignments
-*/
-h1, h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+
+section {
+    display: block;
+}
+h1 {
+    color: #000000;
+    font-size: 35px;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -47,9 +47,9 @@ h3 {
 }
 
 p {
-    margin: 10px 0;
+    margin: 10px;
     padding: 5px;
-    line-height: 1.6;
+    line-height: 2;
     text-align: justify;
     text-transform: lowercase;
 }
