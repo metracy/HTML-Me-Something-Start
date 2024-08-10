@@ -1,16 +1,19 @@
+html {
+    background-color: lightblue
+}
+
 body {
-    margin: 8px;
-    width: 1024px;
+    margin: 8px auto;
+    width: 100%;
     max-width: 1024px;
     font-weight: bold;
-    margin: auto;
     background-color: rgb(255, 255, 255);
 }
 
 #mainHeading {
     color: red;
     text-transform: uppercase;
-    font-size: 40 px;
+    font-size: 55 px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 20px;
@@ -42,7 +45,6 @@ h2 {
 h3 {
     color: #000000;
     font-size: 20px;
-    margin-top: 30px;
     text-transform: uppercase;
 }
 
@@ -51,7 +53,8 @@ p {
     padding: 5px;
     line-height: 2;
     text-align: justify;
-    text-transform: lowercase;
+    text-transform: uppercase;
+    
 }
 
 footer {
@@ -59,7 +62,7 @@ footer {
     max-width: 1024px;
     font-weight: bold;
     padding: 10px;
-    background-color: grey;
+    background-color: lightslategrey;
     font-size: 14px;
     bottom: 0;
     width: 1024 px;
