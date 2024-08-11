@@ -1,13 +1,13 @@
 html {
-    background-color: rgba(214, 247, 253)
+    background-color: rgb(214, 247, 253)
 }
 
 body {
     margin: 8px auto;
-    padding: 10 px;
+    padding: 10px;
     max-width: 1024px;
     font-weight: bold;
-    background-color: rgb(255, 255, 255);
+    background-color: whitesmoke;
 }
 
 #mainHeading {
@@ -16,15 +16,14 @@ body {
     font-size: 55 px;
     font-weight: bold;
     text-align: center;
-    margin-left: 10 px;
+    margin-left: 10px;
     padding: 10px
-    padding-bottom: 20px;
     border-bottom: 2px solid #ccc;
 }
 
 #testP.funParagraph {
     color: green;
-    font-style: bold;
+    font-weight: bold;
     background-color: rgb(204, 192, 252);
     margin-bottom: 20px;
 }
@@ -49,7 +48,7 @@ h2 {
 
 h3 {
     color: black;
-    margin-left: 30 px;
+    margin-left: 30px;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -66,10 +65,9 @@ footer {
     text-align: center;
     max-width: 1024px;
     font-weight: bold;
-    padding: 10px;
+    padding: 0;
     background-color: lightslategrey;
     font-size: 14px;
     bottom: 0;
-    width: 1024 px;
 }
 
